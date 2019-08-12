@@ -5,6 +5,9 @@ $(window).on('load', function () {
 	$loader.fadeOut();
 	$preloader.delay(350).fadeOut('slow');
 	$('body').removeClass('js-loading');
+
+	
+	$('.start-anim').addClass('anim');
 });
 
 
